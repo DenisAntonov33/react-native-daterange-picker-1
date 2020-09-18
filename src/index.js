@@ -314,7 +314,7 @@ const DateRangePicker = ({
         <TouchableWithoutFeedback style={styles.closeTrigger} onPress={onClose}>
           <View style={styles.closeContainer} />
         </TouchableWithoutFeedback>
-        <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+        <View style={mergedStyles.backdrop}>
           <View style={mergedStyles.container}>
             <View style={styles.header}>
               <TouchableOpacity onPress={previousMonth}>
